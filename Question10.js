@@ -1,17 +1,5 @@
-//Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
-//function for title case
-function titleCase(str) {
-    str = str.toLowerCase().split(' ');
-    for (var i = 0; i < str.length; i++) {
-      str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
-    }
-    return str.join(' ');
-  }
-  titleCase("I'm a little tea pot");
-
-
-var fname="Muhammad Sohail"
-
-console.log(fname.toLowerCase())
-console.log(fname.toUpperCase())
-console.log(titleCase(fname))
+//Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
+//this is Muhammad Sohail, below code is to show lucky number
+const num=123
+message="My lucky number is "+num
+console.log(message)

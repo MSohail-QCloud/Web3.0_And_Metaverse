@@ -1,17 +1,8 @@
-//Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
-//function for title case
-function titleCase(str) {
-    str = str.toLowerCase().split(' ');
-    for (var i = 0; i < str.length; i++) {
-      str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
-    }
-    return str.join(' ');
-  }
-  titleCase("I'm a little tea pot");
+//You should create four lines that look like this:
 
+//console.log(5 + 3)
 
-var fname="Muhammad Sohail"
-
-console.log(fname.toLowerCase())
-console.log(fname.toUpperCase())
-console.log(titleCase(fname))
+for (i=0; i <4; i++)
+{
+  console.log("console.log(5+3)\n")
+}
