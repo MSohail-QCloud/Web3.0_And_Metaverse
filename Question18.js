@@ -24,13 +24,6 @@ places=["Madina","Makkah","Turkey","San francisco","Dubai"]
 
 console.log(places)
 
-//fisher yates method
-for (let i = points.length -1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i+1));
-    let k = points[i];
-    points[i] = points[j];
-    points[j] = k;
-  }
-
+console.log(places.slice().sort())
 
 console.log(places)
