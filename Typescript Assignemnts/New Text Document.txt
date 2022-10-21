@@ -1,0 +1,1 @@
+https://github.com/panacloud-modern-global-apps/learn-typescript/blob/master/step01_strong_typing/app.ts
