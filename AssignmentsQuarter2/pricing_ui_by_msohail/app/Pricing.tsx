@@ -18,7 +18,7 @@ import {
         mx={{ base: "20px", lg: "auto" }}
         //   ml={{ base: "20px", lg: "auto" }}
         //   mr={{ base: "20px", lg: "auto" }}
-        mt="-150px"
+        mt="-10px"
         //   mx="20px"
         bg="white"
         borderRadius={"16px"}

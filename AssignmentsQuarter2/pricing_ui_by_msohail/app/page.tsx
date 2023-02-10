@@ -14,7 +14,7 @@ export default function Home() {
     <ChakraProvider>
       <Header />
       <Pricing />
-      <Features />
+     <Features />
     </ChakraProvider>
   );
 }
